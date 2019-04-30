@@ -1,0 +1,19 @@
+commons:
+  sitename: 式神「幻想郷紀年法変換」
+  description: 幻想郷の紀年法を算出する式神(JavaScript)のページです
+  year: 2019
+  author: アルム＝バンド
+  url: http://testsite.ewigleere.net/gensokyokinen/
+  ogpimage: img/eyecatch.jpg
+  twitteraccount: Bredtn_1et
+  newsthumbnail: img/thumbnails/
+param:
+  indexcount: 3
+  newscount: 6
+  articlesns:
+    twitter: true
+    facebook: true
+    googleplus: false
+    line: true
+    pocket: true
+    feedly: true

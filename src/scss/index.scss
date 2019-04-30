@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+// ============================================== *
+//                                                *
+//  共通                                          *
+//                                                *
+// ============================================= */
+@import "common";
+
+// ============================================== *
+//                                                *
+//  メイン                                         *
+//                                                *
+// ============================================= */
+.index .indexmain {
+    .btn_submit {
+        background-color: $main-color;
+        color: $bg-color;
+        &:hover {
+            background-color: $main-color2;
+        }
+    }
+    .fa-arrow-down {
+        color: $main-color;
+    }
+    h2 {
+        @include mincho();
+    }
+    .index_share {
+        .index_btn {
+            &, &:link {
+                color: darken($bg-color, 4%);
+                .fa.fa-fw {
+                    margin-right: 0.1rem;
+                }
+            }
+            &:hover, &:active, &:focus {
+                text-decoration: none;
+                color: $bg-color;
+            }
+            &Twitter {
+                background-color: $bc-twitter;
+                &:hover, &:active, &:focus {
+                    background-color: darken($bc-twitter, 8%);
+                }
+            }
+            &Facebook {
+                background-color: $bc-facebook;
+                &:hover, &:active, &:focus {
+                    background-color: darken($bc-facebook, 12%);
+                }
+            }
+            &Googleplus {
+                background-color: $bc-google-plus;
+                &:hover, &:active, &:focus {
+                    background-color: darken($bc-google-plus, 8%);
+                }
+            }
+            &Line {
+                background-color: $bc-line;
+                &:hover, &:active, &:focus {
+                    background-color: darken($bc-line, 5%);
+                }
+            }
+            &Pocket {
+                background-color: $bc-pocket;
+                &:hover, &:active, &:focus {
+                    background-color: darken($bc-pocket, 12%);
+                }
+            }
+            &Feedly {
+                background-color: $bc-feedly;
+                &:hover, &:active, &:focus {
+                    background-color: darken($bc-feedly, 8%);
+                }
+            }
+        }
+    }
+}
